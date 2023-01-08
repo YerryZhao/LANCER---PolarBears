@@ -1,0 +1,364 @@
+* {
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0px;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font: 100% Lato, Helvetica, Arial, sans-serif;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+}
+
+header {
+    height: 110px;
+    background-color: #22333B;
+    padding: 20px;
+    border-bottom: 1px solid #22333B;
+    width: 2000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header .logo {
+    position: relative;
+    bottom: 10px;
+    right: 33px;
+    width: 400px;
+    height: 90px;
+}
+
+.question-link {
+    color: #ffffff;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 0 40px;
+}
+
+h1 {
+    color: #466995;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    /* text-transform: uppercase; */
+    margin: 0px;
+}
+
+h2 {
+    color: #333333;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 26px;
+    font-weight: 100;
+}
+
+h4 {
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase
+}
+
+p {
+    color: #333333;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+}
+
+
+/* 
+.welcome {} */
+
+
+/* .question-bank {
+    padding: 0px 60px;
+}
+
+.question {
+    margin: 60px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.answer-bank {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+} */
+
+
+/* .answer {
+    display: flex;
+    margin: 20px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    color: #466995;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+} */
+
+a {
+    cursor: default;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* div#search-form-wrapper {
+    color: #000000;
+    font: 16px Lato, Helvetica, Arial, sans-serif;
+    position: relative;
+    left: 0.5px;
+    top: 1px;
+    background-color: #DBE9EE;
+    text-align: center;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px; */
+
+
+/* } */
+
+
+/* 
+div#phone-search-fields.field-container {
+    color: #000000;
+    font: 16px Lato, Helvetica, Arial, sans-serif;
+    background: #ffffff;
+    margin: 0px -9.59375px 0px 0px;
+    padding: 32px 16px;
+} */
+
+label {
+    color: #000;
+    font: 14px Lato, Helvetica, Arial, sans-serif;
+    padding: 5px 0px;
+}
+
+input#phone.validate.error {
+    background: #e5edf8;
+}
+
+button.button-green {
+    color: #ffffff;
+    font: 14px Lato, Helvetica, Arial, sans-serif;
+    background: #4f8f10;
+    padding: 11.41px 35px;
+}
+
+li#name {
+    color: #ffffff;
+    font: 13.6px Lato, Helvetica, Arial, sans-serif;
+    background-color: #000000;
+    margin: 0px 20px 0px 0px;
+    padding: 10px 20px;
+}
+
+li#phone {
+    color: #ffffff;
+    font: 13.6px Lato, Helvetica, Arial, sans-serif;
+    background-color: #000000;
+    margin: 0px 20px 0px 0px;
+    padding: 10px 20px;
+}
+
+li#phone-number.active.current-section {
+    color: #000000;
+    font: 20px Lato, Helvetica, Arial, sans-serif;
+    background: #ffffff;
+    margin: 0px 20px 0px 0px;
+    padding: 10px 20px;
+}
+
+li#address {
+    color: #ffffff;
+    font: 20px Lato, Helvetica, Arial, sans-serif;
+    background: #000000;
+    margin: 0px 20px 0px 0px;
+    padding: 10px 20px;
+}
+
+li#name.active.current-section {
+    color: #000000;
+    font: 20px Lato, Helvetica, Arial, sans-serif;
+    background: #ffffff;
+    margin: 0px 20px 0px 0px;
+    padding: 10px 20px;
+}
+
+li#address.active.current-section {
+    color: #000000;
+    font: 20px Lato, Helvetica, Arial, sans-serif;
+    background: #ffffff;
+    margin: 0px 20px 0px 0px;
+    padding: 10px 20px;
+}
+
+#search-form-wrapper #search-tabs li {
+    list-style: none;
+    padding: 10px 20px;
+    margin-right: 1em;
+    background: #000;
+    color: #fff;
+    border-radius: 4px 4px 0 0;
+    cursor: pointer;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+#search-form-wrapper {
+    max-width: 1032px;
+    position: relative;
+    bottom: 2000px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+div {
+    display: block;
+}
+
+ul#search-tabs {
+    -webkit-text-size-adjust: 100%;
+    font: 100% Lato, Helvetica, Arial, sans-serif;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    padding: 0;
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: start;
+    cursor: pointer;
+    width: 42%;
+    margin: 0 .75em;
+}
+
+script {
+    color: #000;
+}
+
+iframe {
+    position: relative;
+    /* right: 800px;
+    left: 200px; */
+    width: 250%;
+    height: 600px;
+    /* margin: 30px;
+    padding: 30px; */
+}
+
+
+/* GLOBAL STYLES */
+
+
+/* DEMO-SPECIFIC STYLES */
+
+.typewriter h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #CD5646FF;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+    position: relative;
+    left: 50 px;
+}
+
+
+/* The typing effect */
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 50%
+    }
+}
+
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: orange
+    }
+}
+
+div.about {
+    background-color: #dde1e7ff;
+}
+
+.about h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #dde1e7ff;
+}
+
+.about h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: #dde1e7ff;
+}
+
+.about p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #dde1e7ff;
+}
+
+section .contact {
+    background-color: #fc9eafff;
+}
+
+.contact h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.contact td {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}

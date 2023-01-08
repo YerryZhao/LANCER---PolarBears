@@ -1,0 +1,36 @@
+.question-link:visited {
+    color: #ffffff;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a:link {
+    color: #5E503F;
+}
+
+a:visited,
+.answer {
+    color: #5E503F;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active .answer:active {
+    color: #DBE9EE;
+}
+
+#search-form-wrapper {
+    max-width: 1032px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+}
+
+div {
+    display: block;
+}
