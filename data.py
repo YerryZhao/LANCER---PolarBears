@@ -153,7 +153,7 @@ def get_time():
 
 
 if __name__ == '__main__':
-    device_id = 'CameronLib-Basment'
+    device_id = 'DICE'
     source = 'BT'
     delay_time = 5
     batch_size = 4
